@@ -34,3 +34,13 @@ exclude =
 [metadata]
 description-file = README.md
 license_file = LICENSE
+exclude = 
+  .git,
+  build,
+  __pycache__,
+  altair/examples
+  altair/vega*/v?/schema
+
+[metadata]
+description-file = README.md
+license_file = LICENSE
