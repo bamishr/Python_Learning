@@ -4,3 +4,13 @@ jsonschema
 numpy
 pandas>=0.18
 toolz
+exclude = 
+  .git,
+  build,
+  __pycache__,
+  altair/examples
+  altair/vega*/v?/schema
+
+[metadata]
+description-file = README.md
+license_file = LICENSE
