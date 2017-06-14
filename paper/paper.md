@@ -98,7 +98,15 @@ to filter the scatterplot.
 These interactions are achieved through two selections: an interval selection on the scatterplot and a multi selection
 on the bar chart. The selections drive filters in the other plot. The code for this and other examples is in the
 [Altair gallery](https://altair-viz.github.io/gallery/).
-
+affiliations:
+  - name: University of Washington
+    index: 1
+  - name: California Polytechnic State University, San Luis Obispo
+    index: 2
+  - name: MIT CSAIL
+    index: 3
+  - name: Florida State University
+    index: 4
 # Acknowledgements
 
 We thank the many contributors that created examples, wrote documentation, and reported bugs. You can find [an up-to-date
