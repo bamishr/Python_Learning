@@ -107,6 +107,15 @@ affiliations:
     index: 3
   - name: Florida State University
     index: 4
+	affiliations:
+  - name: University of Washington
+    index: 1
+  - name: California Polytechnic State University, San Luis Obispo
+    index: 2
+  - name: MIT CSAIL
+    index: 3
+  - name: Florida State University
+    index: 4
 # Acknowledgements
 
 We thank the many contributors that created examples, wrote documentation, and reported bugs. You can find [an up-to-date
