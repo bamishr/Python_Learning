@@ -122,3 +122,12 @@ We thank the many contributors that created examples, wrote documentation, and r
 list of contributors on GitHub](https://github.com/altair-viz/altair/graphs/contributors).
 
 # References
+affiliations:
+  - name: University of Washington
+    index: 1
+  - name: California Polytechnic State University, San Luis Obispo
+    index: 2
+  - name: MIT CSAIL
+    index: 3
+  - name: Florida State University
+    index: 4
