@@ -22,3 +22,12 @@ jinja2
 numpydoc
 pillow
 sphinx_rtd_theme
+jinja2
+numpydoc
+pillow
+sphinx_rtd_theme
+sphinx
+jinja2
+numpydoc
+pillow
+sphinx_rtd_theme
