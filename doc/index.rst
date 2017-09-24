@@ -90,6 +90,28 @@ beautiful and effective visualizations with a minimal amount of code.
 .. toctree::
    :maxdepth: 1
    :caption: Gallery
+.. toctree::
+   :maxdepth: 1
+   :caption: Getting Started
+
+   getting_started/overview
+   getting_started/installation
+   getting_started/starting
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Gallery
+.. toctree::
+   :maxdepth: 1
+   :caption: Getting Started
+
+   getting_started/overview
+   getting_started/installation
+   getting_started/starting
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Gallery
    :maxdepth: 1
    :caption: Release Notes
    
