@@ -28,6 +28,17 @@ beautiful and effective visualizations with a minimal amount of code.
 .. toctree::
    :maxdepth: 1
    :caption: Gallery
+.. toctree::
+   :maxdepth: 1
+   :caption: Getting Started
+
+   getting_started/overview
+   getting_started/installation
+   getting_started/starting
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Gallery
 
    gallery/index
 
@@ -68,6 +79,17 @@ beautiful and effective visualizations with a minimal amount of code.
    user_guide/data_transformers
 
 .. toctree::
+.. toctree::
+   :maxdepth: 1
+   :caption: Getting Started
+
+   getting_started/overview
+   getting_started/installation
+   getting_started/starting
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Gallery
    :maxdepth: 1
    :caption: Release Notes
    
