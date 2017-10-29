@@ -53,6 +53,17 @@ extensions = [
     "altair.sphinxext.altairgallery",
     "altair.sphinxext.schematable",
 ]
+extensions = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.doctest",
+    "sphinx.ext.coverage",
+    "sphinx.ext.githubpages",
+    "numpydoc.numpydoc",
+    "altair.sphinxext.altairplot",
+    "altair.sphinxext.altairgallery",
+    "altair.sphinxext.schematable",
+]
 
 altair_plot_links = {"editor": True, "source": False, "export": False}
 
