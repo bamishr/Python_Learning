@@ -95,6 +95,14 @@ an evaluation of that variable:
 Alternatively, you can evaluate a chart directly, and not assign it to a variable,
 in which case the object definition itself is the final statement and will be
 displayed as an output:
+.. altair-plot::
+
+   import pandas as pd
+   data = pd.DataFrame({'x.value': [1, 2, 3]})
+
+   alt.Chart(data).mark_point().encode(
+       x='x.value:Q',
+   )
 
 .. altair-plot::
 
