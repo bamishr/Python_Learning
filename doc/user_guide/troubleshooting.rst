@@ -48,6 +48,14 @@ By analogy, consider the output of simple Python operations::
 
 If the last thing you type consists of an assignment operation, there will be no
 output displayed. This turns out to be true of Altair charts as well:
+.. altair-plot::
+
+   import pandas as pd
+   data = pd.DataFrame({'x.value': [1, 2, 3]})
+
+   alt.Chart(data).mark_point().encode(
+       x='x.value:Q',
+   )
 
 .. altair-plot::
     :output: none
