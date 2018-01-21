@@ -124,6 +124,14 @@ Sometimes charts may appear, but the content is empty; for example:
         x='x:Q',
         y='y:Q',
     )
+.. altair-plot::
+
+   import pandas as pd
+   data = pd.DataFrame({'x.value': [1, 2, 3]})
+
+   alt.Chart(data).mark_point().encode(
+       x='x.value:Q',
+   )
 
 If this is the case, it generally means one of two things:
 
