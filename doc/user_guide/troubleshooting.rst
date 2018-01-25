@@ -163,6 +163,14 @@ Your encodings do not match your data
   column contains special characters (see below).
 
 Here is an example of a mis-specified field name leading to a blank chart:
+.. altair-plot::
+
+   import pandas as pd
+   data = pd.DataFrame({'x.value': [1, 2, 3]})
+
+   alt.Chart(data).mark_point().encode(
+       x='x.value:Q',
+   )
 
 .. altair-plot::
 
