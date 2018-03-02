@@ -232,3 +232,13 @@ gives similar results even in older browsers.
 .. _Coordinated Universal Time (UTC): https://en.wikipedia.org/wiki/Coordinated_Universal_Time
 .. _Pandas timeseries: https://pandas.pydata.org/pandas-docs/stable/timeseries.html
 .. _ECMAScript 6: http://www.ecma-international.org/ecma-262/6.0/
+
+.. altair-plot::
+
+   temps['date_utc'] = temps['date'].dt.tz_localize('UTC')
+
+   alt.Chart(temps).mark_rect().encode(
+       alt.X('utchoursminutes(date_utc):O', title='hour of day'),
+       alt.Y('utcmonthdate(date_utc):O', title='date'),
+       alt.Color('temp:Q', title='temperature (F)')
+   )
