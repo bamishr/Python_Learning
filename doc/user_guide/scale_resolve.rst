@@ -27,6 +27,20 @@ a union of the two color encoding domains:
        width=200,
        height=200
    )
+   .. altair-plot::
+
+   import altair as alt
+   from vega_datasets import data
+   
+   source = data.cars()
+   
+   base = alt.Chart(source).mark_point().encode(
+       x='Horsepower:Q',
+       y='Miles_per_Gallon:Q'
+   ).properties(
+       width=200,
+       height=200
+   )
    
    alt.concat(
        base.encode(color='Origin:N'),
