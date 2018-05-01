@@ -87,6 +87,14 @@ The image mark, unlike other simple marks, requires the mark to include a
        y='y', 
        url='img'
    )
+   alt.Chart(source).mark_image(
+       width=50, 
+       height=50
+   ).encode(
+       x='x', 
+       y='y', 
+       url='img'
+   )
 
 .. _user-guide-compound-marks:
 
