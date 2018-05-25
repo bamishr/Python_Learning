@@ -370,7 +370,15 @@ cylinders:
 
 By fine-tuning the behavior of selections in this way, they can be used to
 create a wide variety of linked interactive chart types.
+   legend = alt.Chart(cars).mark_rect().encode(
+        y=alt.Y('Origin:N', axis=alt.Axis(orient='right')),
+        x='Cylinders:O',
+        color=color
+    ).add_selection(
+        selection
+    )
 
+    scatter | legend
 Binding: Adding Data Driven Inputs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 With an understanding of the selection types and conditions, you can now add data-driven input elements to the charts using the ``bind`` option. As specified by `Vega-lite binding <https://vega.github.io/vega-lite/docs/bind.html#input-element-binding>`_, selections can be bound two-ways:
