@@ -35,6 +35,11 @@ Altair additionally provides wrappers for several other schemas:
 - Vega-Lite 1.X in ``altair.vegalite.v1``
 - Vega 2.X in ``altair.vega.v2``
 - Vega 3.X in ``altair.vega.v3``
+Altair additionally provides wrappers for several other schemas:
+
+- Vega-Lite 1.X in ``altair.vegalite.v1``
+- Vega 2.X in ``altair.vega.v2``
+- Vega 3.X in ``altair.vega.v3``
 
 
 .. _Vega-Lite: http://vega.github.io/vega-lite/
