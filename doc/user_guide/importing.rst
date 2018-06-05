@@ -49,6 +49,15 @@ Altair additionally provides wrappers for several other schemas:
     )
 
     scatter | legend
+	  legend = alt.Chart(cars).mark_rect().encode(
+        y=alt.Y('Origin:N', axis=alt.Axis(orient='right')),
+        x='Cylinders:O',
+        color=color
+    ).add_selection(
+        selection
+    )
+
+    scatter | legend
 
 
 .. _Vega-Lite: http://vega.github.io/vega-lite/
