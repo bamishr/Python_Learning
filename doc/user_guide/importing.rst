@@ -30,6 +30,11 @@ Because Altair has focused primarily on the vega-lite API, the vega wrappers are
 far less developed than the vega-lite wrappers, though it is possible to
 create Vega plots using a very low-level Python interface that mirrors the
 schema itself.
+Altair additionally provides wrappers for several other schemas:
+
+- Vega-Lite 1.X in ``altair.vegalite.v1``
+- Vega 2.X in ``altair.vega.v2``
+- Vega 3.X in ``altair.vega.v3``
 
 
 .. _Vega-Lite: http://vega.github.io/vega-lite/
