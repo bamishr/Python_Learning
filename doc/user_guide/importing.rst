@@ -40,6 +40,15 @@ Altair additionally provides wrappers for several other schemas:
 - Vega-Lite 1.X in ``altair.vegalite.v1``
 - Vega 2.X in ``altair.vega.v2``
 - Vega 3.X in ``altair.vega.v3``
+  legend = alt.Chart(cars).mark_rect().encode(
+        y=alt.Y('Origin:N', axis=alt.Axis(orient='right')),
+        x='Cylinders:O',
+        color=color
+    ).add_selection(
+        selection
+    )
+
+    scatter | legend
 
 
 .. _Vega-Lite: http://vega.github.io/vega-lite/
