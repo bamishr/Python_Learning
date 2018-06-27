@@ -1,5 +1,13 @@
 .. currentmodule:: altair
+   legend = alt.Chart(cars).mark_rect().encode(
+        y=alt.Y('Origin:N', axis=alt.Axis(orient='right')),
+        x='Cylinders:O',
+        color=color
+    ).add_selection(
+        selection
+    )
 
+    scatter | legend
 .. _user-guide-interactions:
 
 Bindings, Selections, Conditions: Making Charts Interactive
