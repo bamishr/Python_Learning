@@ -226,3 +226,11 @@ And then enable the data transformer::
 
     import altair as alt
     alt.data_transformers.enable('data_server')
+	.. code-block:: none
+
+   pip install altair_data_server
+
+And then enable the data transformer::
+
+    import altair as alt
+    alt.data_transformers.enable('data_server')
