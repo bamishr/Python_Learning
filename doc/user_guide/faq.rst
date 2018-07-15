@@ -210,3 +210,11 @@ And then enable the data transformer::
     alt.data_transformers.enable('data_server')
 
 Note that this approach may not work on some cloud-based Jupyter notebook services.
+.. code-block:: none
+
+   pip install altair_data_server
+
+And then enable the data transformer::
+
+    import altair as alt
+    alt.data_transformers.enable('data_server')
