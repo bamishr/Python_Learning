@@ -294,7 +294,18 @@ The :class:`Href` encoding accepts the following options:
 The :class:`Order` encoding accepts the following options:
 
 .. altair-object-table:: altair.OrderFieldDef
+.. altair-plot::
 
+   import altair as alt
+   from vega_datasets import data
+   cars = data.cars()
+
+   alt.Chart(cars).mark_point().encode(
+       x='Horsepower',
+       y='Miles_per_Gallon',
+       color='Origin',
+       shape='Origin'
+   )
 
 .. _encoding-aggregates:
 
