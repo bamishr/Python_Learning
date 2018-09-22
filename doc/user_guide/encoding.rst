@@ -347,6 +347,18 @@ Binning and Aggregation
        color='Origin',
        shape='Origin'
    )
+   .. altair-plot::
+
+   import altair as alt
+   from vega_datasets import data
+   cars = data.cars()
+
+   alt.Chart(cars).mark_point().encode(
+       x='Horsepower',
+       y='Miles_per_Gallon',
+       color='Origin',
+       shape='Origin'
+   )
 Beyond simple channel encodings, Altair's visualizations are built on the
 concept of the database-style grouping and aggregation; that is, the
 `split-apply-combine <https://www.jstatsoft.org/article/view/v040i01>`_
