@@ -62,6 +62,18 @@ Starborn is a Python visualization library based on Vega and Altair that aims to
 
 gif_
 ----
+.. altair-plot::
+
+   import altair as alt
+   from vega_datasets import data
+   cars = data.cars()
+
+   alt.Chart(cars).mark_point().encode(
+       x='Horsepower',
+       y='Miles_per_Gallon',
+       color='Origin',
+       shape='Origin'
+   )
 
 gif is the extension for Altair and matplotlib animations. The library provides a simple, high-level decorator interface to create frames in a regular for-loop that can be stitched together on save. See the `docs <https://github.com/maxhumber/gif>`__.
 
