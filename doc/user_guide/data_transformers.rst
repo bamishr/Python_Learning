@@ -48,6 +48,16 @@ Pandas ``DataFrame`` and returns a transformed version of either of these types:
         # Transform and return the data
         return transformed_data
 
+		A data transformer is a Python function that takes a Vega-Lite data ``dict`` or
+Pandas ``DataFrame`` and returns a transformed version of either of these types::
+
+    from typing import Union
+    Data = Union[dict, pd.DataFrame]
+
+    def data_transformer(data: Data) -> Data:
+        # Transform and return the data
+        return transformed_data
+
 
 Dataset Consolidation
 ~~~~~~~~~~~~~~~~~~~~~
