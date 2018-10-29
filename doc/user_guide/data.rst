@@ -28,6 +28,17 @@ For example, here we specify data via a DataFrame:
        x='x',
        y='y',
    )
+   .. altair-plot::
+
+   import altair as alt
+   import pandas as pd
+
+   data = pd.DataFrame({'x': ['A', 'B', 'C', 'D', 'E'],
+                        'y': [5, 3, 6, 7, 2]})
+   alt.Chart(data).mark_bar().encode(
+       x='x',
+       y='y',
+   )
 
 When data is specified as a DataFrame, the encoding is quite simple, as Altair
 uses the data type information provided by Pandas to automatically determine
