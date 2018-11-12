@@ -41,6 +41,16 @@ will see this description::
     )
 
 .. code-block:: none
+  alt.renderers.enable('plaintext')
+
+    alt.Chart('data.txt').mark_point().encode(
+        x='x:Q',
+        y='y:Q'
+    ).properties(
+        description='This is a simple chart'
+    )
+
+.. code-block:: none
 
     description: This is a simple chart
 
