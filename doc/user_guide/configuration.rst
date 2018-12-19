@@ -41,6 +41,11 @@ These methods and their arguments will be outlined below:
 - :ref:`config-projection` :meth:`Chart.configure_projection`
 - :ref:`config-selection` :meth:`Chart.configure_selection`
 - :ref:`config-title` :meth:`Chart.configure_title`
+- :ref:`config-view` :meth:`Chart.configure_view`- :ref:`config-scale` :meth:`Chart.configure_scale`
+- :ref:`config-range` :meth:`Chart.configure_range`
+- :ref:`config-projection` :meth:`Chart.configure_projection`
+- :ref:`config-selection` :meth:`Chart.configure_selection`
+- :ref:`config-title` :meth:`Chart.configure_title`
 - :ref:`config-view` :meth:`Chart.configure_view`
 
 For more discussion of approaches to chart customization, see
