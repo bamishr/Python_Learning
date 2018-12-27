@@ -37,6 +37,16 @@ For example, suppose we are creating a scatter plot of the ``cars`` dataset:
        x='Acceleration:Q',
        y='Horsepower:Q'
    )
+   .. altair-plot::
+
+   import altair as alt
+   from vega_datasets import data
+   cars = data.cars.url
+
+   alt.Chart(cars).mark_point().encode( 
+       x='Acceleration:Q',
+       y='Horsepower:Q'
+   )
 
 Suppose you wish to change the color of the points to red, and the opacity
 of the points to 20%. There are three possible approaches to these:
